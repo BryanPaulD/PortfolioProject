@@ -1,0 +1,149 @@
+body
+{
+    margin: 0; /* The default is 8px for some reason. Maybe it's a good reason. */
+    background-color: slategray;
+}
+
+#homePageContent
+{
+    background-color: goldenrod;
+}
+
+.imageDescription
+{
+    margin-top: 50px;
+}
+.wideImage
+{
+    width: 100%;
+}
+.portraitImage
+{
+    height: 600px;
+}
+
+#homePageHeader
+{
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.containerPrime
+{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.nav-bar
+{
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: goldenrod 2px outset;
+}
+
+#contactForm
+{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    border: ridge black 2px;
+    padding: 10px;
+}
+
+.formContent
+{
+    width: 50%;
+}
+
+.contactLabel
+{
+    /* width: 100%; That didn't do anything. */
+    /* width: 285px; OK, so I can't change the width of a label. That's understandable though. Wait, what if I do display: block? Would that do the same thing? Well that works. */
+    display: block;
+    margin-bottom: 10px;
+}
+
+.pageContent
+{
+    /*height: 964px;*/
+    padding-bottom: 12px;
+    background-color: goldenrod;
+}
+
+input, textarea
+{
+    width: 100%;
+}
+input
+{
+    margin-bottom: 10px;
+}
+
+h2
+{
+    margin-top: 20px; /* Why don't I see these elements' margins on the page?? It does say they have a margin when I inspect them. */
+    margin-bottom: 10px;
+}
+.resumeSectionHeader
+{
+    background-color: steelblue;
+}
+.resumeSection
+{
+    display: flex; /* Without this, the dates would be pushed to the next line because these sections are block elements. */
+}
+.resumeContent1
+{
+    margin-right: 30px;
+}
+.resumeContent2
+{
+    margin-right: 30px;
+}
+.resumeText
+{
+    margin: 10px;
+    width: 420px;
+}
+.resumeExtraLine
+{
+    margin-left: 25px;
+}
+.resumeGroupMember2
+{
+    margin-left: 110px;
+}
+
+#bpd
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+    color: steelblue;
+    font-family: aldrich; /* Warning: "Font property font-family does not have generic default." What's a generic default? I don't understand this. */
+    font-weight: 100;
+    font-size: 40px;
+}
+#resumePersonalInfo
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 3px;
+    font-size: 14px;
+}
+
+
+.pageHeader
+{
+    margin: auto;
+    margin-bottom: 10px;
+    width: 50%;
+    /*display: inline;*/
+}
+/*h1*/
+/*{*/
+    /*display: inline;*/
+    /*margin: 0 auto;*/
+/*}*/
